@@ -1,0 +1,118 @@
+export const CATEGORIES = [
+  { id: "start", title: "Getting started", blurb: "Basics and how Moviews works", icon: "rocket" },
+  { id: "library", title: "Watchlist & ratings", blurb: "Save titles and score what you watch", icon: "bookmark" },
+  { id: "reviews", title: "Reviews", blurb: "Write, sort and delete reviews", icon: "chat" },
+  { id: "account", title: "Account & profile", blurb: "Sign in, password and photo", icon: "person" },
+  { id: "fix", title: "Troubleshooting", blurb: "When something does not load", icon: "build" },
+];
+
+export const ARTICLES = [
+  {
+    id: "what-is",
+    category: "start",
+    popular: true,
+    q: "What is Moviews and what can I do with it?",
+    a: "Moviews is a movie and TV discovery site. You can browse what is trending, filter by genre, rating and year, watch trailers, check the cast, save titles to a watchlist, rate them and read or write reviews.",
+  },
+  {
+    id: "need-account",
+    category: "start",
+    popular: true,
+    q: "Do I need an account to use Moviews?",
+    a: "No. Browsing, searching, trailers, the watchlist, ratings and reviews all work without signing in. An account adds a profile, a photo and your username on reviews. Without one, reviews are posted as Guest.",
+  },
+  {
+    id: "data-source",
+    category: "start",
+    q: "Where does the movie information come from?",
+    a: "All titles, posters, cast lists, scores and trailers come from The Movie Database (TMDB). The score you see on a title is the TMDB community average, not a Moviews score.",
+  },
+  {
+    id: "find-titles",
+    category: "start",
+    q: "How do I find something to watch?",
+    a: "Use the search bar for a specific title, or open Browse to filter movies or TV shows by genre, minimum rating, year and sort order. On the home page, the Trending row can switch between Today and This week.",
+  },
+  {
+    id: "add-watchlist",
+    category: "library",
+    popular: true,
+    q: "How do I add a title to my watchlist?",
+    a: "Hover over any poster and tap the bookmark icon in the corner (it is always visible on phones), or press Add to Watchlist on the title page. Tap it again to remove the title. Everything you save appears under Watchlist in the top menu.",
+  },
+  {
+    id: "watchlist-storage",
+    category: "library",
+    q: "Where is my watchlist stored? Will it sync to my other devices?",
+    a: "Your watchlist, ratings and reviews are saved in this browser. They stay after you close the tab, but they do not sync to other devices and are lost if you clear your browser data or use a private window.",
+  },
+  {
+    id: "rate-title",
+    category: "library",
+    popular: true,
+    q: "How do I rate a movie or show?",
+    a: "Open the title page and press Rate. Pick one to five stars and save. You can open the same window later to change your score or remove it. Posting a review with a star rating also updates your rating.",
+  },
+  {
+    id: "write-review",
+    category: "reviews",
+    q: "How do I write a review?",
+    a: "Scroll to Community Reviews on the title page, choose a star rating, write up to 600 characters and press Post review. Both a rating and some text are required so every review is useful to other readers.",
+  },
+  {
+    id: "spoilers",
+    category: "reviews",
+    q: "Can I include spoilers in my review?",
+    a: "Please keep reviews spoiler-free. Describe how the film made you feel, the acting, the pacing and the visuals instead of revealing plot twists or endings. See the Content Guidelines in our Terms for details.",
+  },
+  {
+    id: "delete-review",
+    category: "reviews",
+    q: "Can I edit or delete a review I posted?",
+    a: "You can delete your own review with the trash icon on the right of the review. Reviews cannot be edited yet, so delete it and post a new one if you want to change the text.",
+  },
+  {
+    id: "create-account",
+    category: "account",
+    q: "How do I create an account?",
+    a: "Press Sign In in the top right, then choose Create an account. Enter your name, a username, your email and a password of at least 6 characters. After registering, sign in with the same email and password.",
+  },
+  {
+    id: "change-password",
+    category: "account",
+    popular: true,
+    q: "How do I change my password?",
+    a: "Sign in, open your Profile from the account menu and use the Change password form. You will need your current password and a new one of at least 6 characters.",
+  },
+  {
+    id: "forgot-password",
+    category: "account",
+    q: "I forgot my password. What should I do?",
+    a: "There is no automatic reset link yet. Email support@Moviews.com from the address you registered with and our team will help you regain access.",
+  },
+  {
+    id: "profile-photo",
+    category: "account",
+    q: "How do I change my profile photo or username?",
+    a: "Open Profile and click your photo to upload a new picture. It is cropped to a square and stored on this device. Update your username, full name or email in Profile information and press Save changes.",
+  },
+  {
+    id: "no-data",
+    category: "fix",
+    popular: true,
+    q: "Posters and titles are not loading. What can I do?",
+    a: "First check your internet connection and refresh the page. If only some rows are empty, the movie data service may be busy; wait a minute and try again. Content blockers can also block image or API requests, so try pausing them for this site.",
+  },
+  {
+    id: "no-trailer",
+    category: "fix",
+    q: "The trailer will not play or the button is disabled.",
+    a: "Some titles do not have a trailer in our data source, so the button is disabled. If the player opens but stays black, an ad blocker or strict privacy setting may be blocking YouTube embeds. Allow YouTube for this site and reload.",
+  },
+  {
+    id: "signin-error",
+    category: "fix",
+    q: "I see an error when I sign in or register.",
+    a: "Check that your email and password are correct. If the message says the server could not be reached, our account service may be temporarily unavailable. Browsing and your local watchlist still work, so try signing in again a little later.",
+  },
+];
